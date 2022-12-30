@@ -1,0 +1,2 @@
+# react-calculator
+This is a simple calculator app which performs simple arithmetic operations such as addition, subtraction, multiplication and division. It is made with using React (a JavaScript library) and Tailwind CSS.
