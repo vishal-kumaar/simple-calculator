@@ -4,10 +4,11 @@ export default function Calculator(props) {
     const [inputVal, setInputVal] = useState("");
     const calculate = () => {
         try{
-            setInputVal(eval(inputVal));
+            // eslint-disable-next-line
+            setInputVal(eval(inputVal))
         }
         catch{
-            alert("Something went wrong");
+            alert("Invalid input!!");
         }
     }
 
@@ -30,9 +31,9 @@ export default function Calculator(props) {
     }
     
     return (
-        <div className={`${border} rounded-lg ${textColor} w-[90%] text-center m-auto mt-14 ${bgColor}`}>
+        <div className={`${border} rounded-lg ${textColor} w-[90%] text-center m-auto mt-14 ${bgColor} sm:w-[25rem]`}>
             <div className="text-3xl my-2">Calculator</div>
-            <div type="text" className={`pr-2 mt-8 w-full h-10 text-2xl ${textColor} text-right outline-none bg-transparent`}>{inputVal}</div>
+            <div type="text" className={`pr-2 mt-14 w-full h-10 text-2xl ${textColor} text-right outline-none bg-transparent`}>{inputVal}</div>
             <div className="my-4">
                 <div className="flex justify-around items-center mt-2">
                     <button className={`${btnColor} w-12 h-12 rounded-full text-lg active:translate-y-1`} onClick={() => setInputVal(inputVal + "%")}>%</button>
