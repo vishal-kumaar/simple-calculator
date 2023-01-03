@@ -5,7 +5,7 @@ export default function Calculator(props) {
     const calculate = () => {
         try{
             // eslint-disable-next-line
-            setInputVal(eval(inputVal))
+            setInputVal(String(eval(inputVal)))
         }
         catch{
             alert("Invalid input!!");
@@ -32,7 +32,7 @@ export default function Calculator(props) {
     
     return (
         <div className={`${border} rounded-lg ${textColor} w-[90%] text-center m-auto mt-14 ${bgColor} sm:w-[25rem]`}>
-            <div className="text-3xl my-2 font-medium">Calculator</div>
+            <div className="text-3xl my-4 font-medium">Calculator</div>
             <div type="text" className={`pr-2 mt-14 w-full h-10 text-2xl ${textColor} text-right outline-none bg-transparent`}>{inputVal}</div>
             <div className="my-4">
                 <div className="flex justify-around items-center mt-2">
