@@ -7,6 +7,9 @@ This is a simple calculator app which performs simple arithmetic operations such
 
 In the project directory, you can run:
 
+## `npm install`
+To install all the packages used in this project
+
 ### `npm start`
 
 Runs the app in the development mode.\
