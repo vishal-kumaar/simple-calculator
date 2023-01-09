@@ -43,10 +43,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 <br>
 
 ## 📌 PC Screenshot
-![pc-screenshot](src/images/pc-screenshot.png "PC Screenshot")
+![pc-screenshot](./screenshots/pc-screenshot.png "PC Screenshot")
 
 ## 📌 Mobile Screenshot
-![mobile-screenshot](src/images/mobile-screenshot.png "Moblie Screenshot")
+![mobile-screenshot](./screenshots/mobile-screenshot.png "Moblie Screenshot")
 
 <br>
 
