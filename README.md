@@ -3,8 +3,6 @@
 
 This is a simple calculator app which performs simple arithmetic operations such as addition, subtraction, multiplication and division. It is made with using React (a JavaScript library) and Tailwind CSS.
 
-<br>
-
 ## 📌 PC Screenshot
 ![pc-screenshot](./screenshots/pc-screenshot.png "PC Screenshot")
 
