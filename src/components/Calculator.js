@@ -1,4 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Calculator(props) {
     const [inputVal, setInputVal] = useState("");
@@ -8,7 +10,12 @@ export default function Calculator(props) {
             setInputVal(String(eval(inputVal)))
         }
         catch{
-            alert("Invalid input!!");
+            toast("Please enter a valid expression!", {
+                theme: props.mode,
+                type: "warning",
+                autoClose: 2000,
+                position: 'top-center',
+            });
         }
     }
 
@@ -32,6 +39,7 @@ export default function Calculator(props) {
     
     return (
         <div className={`${border} rounded-lg ${textColor} w-[90%] text-center m-auto mt-14 ${bgColor} sm:w-[25rem]`}>
+            <ToastContainer/>
             <div className="text-3xl my-4 font-medium">Calculator</div>
             <div type="text" className={`pr-2 mt-14 w-full h-10 text-2xl ${textColor} text-right outline-none bg-transparent overflow-x-auto overflow-y-hidden sm:pb-12`}>{inputVal}</div>
             <div className="my-4">
