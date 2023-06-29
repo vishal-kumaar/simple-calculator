@@ -1,7 +1,7 @@
 # ![Logo](src/images/logo.svg)  React Calculator
-### [Project Live Link](https://arithmatic-calculator.netlify.app)
+### [Project Live Link](https://calcmaster.vercel.app/)
 
-This is a simple calculator app which performs simple arithmetic operations such as addition, subtraction, multiplication and division. It is made with using React (a JavaScript library) and Tailwind CSS.
+This is a simple calculator app that performs simple arithmetic operations such as addition, subtraction, multiplication, and division. It is made with using React (a JavaScript library) and Tailwind CSS.
 
 ## 📌 PC Screenshot
 ![pc-screenshot](./screenshots/pc-screenshot.png "PC Screenshot")
@@ -16,10 +16,10 @@ This is a simple calculator app which performs simple arithmetic operations such
     👉 Learned about Tailwind CSS.
     👉 Learned about Tailwind CSS.
     👉 Learned about PostCSS in Tailwind CSS.
-    👉 Learned about Functional Component in ReactJS.
-    👉 Learned how to render Functional Component in ReactJS.
-    👉 Learned about useState hook in ReactJS.
-    👉 Learned why eval function is dangerous in ReactJS.
+    👉 Learned about Functional components in ReactJS.
+    👉 Learned how to render Functional components in ReactJS.
+    👉 Learned about the useState hook in ReactJS.
+    👉 Learned why the eval function is dangerous in ReactJS.
 
 <br>
 
