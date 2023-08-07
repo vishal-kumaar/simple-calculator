@@ -1,5 +1,5 @@
 # ![Logo](src/images/logo.svg)  Simple Calculator
-### [Project Live Link](https://calcmaster.vercel.app/)
+### [Project Live Link](https://arithematicalculator.netlify.app/)
 
 This is a simple calculator app that performs simple arithmetic operations such as addition, subtraction, multiplication, and division. It is made with using React (a JavaScript library) and Tailwind CSS.
 
